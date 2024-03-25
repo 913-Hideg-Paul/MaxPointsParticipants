@@ -4,8 +4,7 @@ package validation;
 import domain.Nota;
 import domain.Student;
 import domain.Tema;
-import repository.StudentXMLRepo;
-import repository.TemaXMLRepo;
+import repository.*;
 
 public class NotaValidator implements Validator<Nota> {
     private StudentXMLRepo studentFileRepository;

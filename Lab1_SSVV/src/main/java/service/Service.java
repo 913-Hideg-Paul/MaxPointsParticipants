@@ -4,9 +4,8 @@ import curent.Curent;
 import domain.Nota;
 import domain.Student;
 import domain.Tema;
-import repository.NotaXMLRepo;
-import repository.StudentXMLRepo;
-import repository.TemaXMLRepo;
+
+import repository.*;
 import validation.NotaValidator;
 import validation.StudentValidator;
 import validation.TemaValidator;
